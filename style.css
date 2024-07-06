@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+body{
+    height : 100vh;
+    font-family: "wittgenstein", sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header.navbar-container{
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    padding-block: 1rem;
+    z-index: 999;
+}
+
+header.navbar-container .nav-list ul{
+    padding-left: 0;
+    display: flex;
+    gap: 2rem 1rem;
+
+}
+
+header.navbar-container .nav-list li{
+    list-style-type: none;
+}
+
+header.navbar-container .nav-list li a{
+    text-decoration: none;
+    font-size: 1.10rem;
+    font-weight: 1000;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    transition: all 0.2s ease-in-out;
+}
+
+header.navbar-container .nav-list li:hover a {
+    background-color: #000;
+    color: whitesmoke;
+}
+
+main{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+    flex: 1;
+    display: flexbox;
+    align-items: center;
+}
+
+main .beranda{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+main .beranda .beranda-description{
+    flex: 1 1;
+}
+
+main .beranda .beranda-description .tittle{
+    font-size: 2.5rem;
+    margin-block: 1rem;
+}
+
+main .beranda .beranda-description p{
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
+
+main .beranda .beranda-images{
+    flex: 1;
+    display: flex;
+}
+
+main .beranda .beranda-images img{
+    margin: auto;
+    min-width: 250px;
+    width: 350px;
+}
+
+main2{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+    flex: 1;
+    display: flexbox;
+    align-items: center;
+}
+
+main2 .divisi{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    
+}
